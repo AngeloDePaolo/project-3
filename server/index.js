@@ -33,4 +33,6 @@ require('./routes/authRoutes')(app);
 
 // adding dynamic port for heroku deployment
 const PORT = process.env.PORT || 5000;
-app.listen(PORT);
+app.listen(PORT, function() {
+    console.log(`🌎 ==> API server now on port ${PORT}!`);
+});

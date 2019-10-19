@@ -1,5 +1,4 @@
 import React from "react";
-// import 
 
 class Modal extends React.Component {
     componentDidMount() {
@@ -37,3 +36,5 @@ class Modal extends React.Component {
         )
     }
 }
+
+export default Modal;

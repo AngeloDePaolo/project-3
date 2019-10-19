@@ -8,7 +8,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import FormControl from 'react-bootstrap/FormControl';
 
-function Navagation(){
+function Navigation(){
     return(
 <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -35,4 +35,4 @@ function Navagation(){
 }
 
 
-export default Navagation;
+export default Navigation;

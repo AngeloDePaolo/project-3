@@ -29,3 +29,5 @@ class BetButton extends React.Component {
         );
     }
 }
+
+export default BetButton;

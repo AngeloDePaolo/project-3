@@ -27,7 +27,7 @@ class Modal extends React.Component {
                         </div>
                         <div className="modal-body">
                             <p className="text-center">
-                                In increments of 100, place your bet below. Good luck, Gamer!
+                                In increments of 100 credits, please place your bet...Good luck, Gamer!
                             </p>
                         </div>
                     </div>

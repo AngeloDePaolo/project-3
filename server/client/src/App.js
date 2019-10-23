@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-//import AppNavbar from './components/AppNavbar';
+//import { BrowserRouter, Route } from 'react-router-dom';
+import AppNavbar from './components/AppNavBar/AppNavbar';
 //import Modal from './components/Modal';
 import { Container } from 'reactstrap';
 import Footer from './components/Footer';
@@ -12,11 +13,12 @@ class App extends Component {
     return (
       <div className="App">
 
-        {/* <AppNavbar /> */}
+        <AppNavbar />
         <Container>
         {/* <Modal /> */}
         {/* <HomePage /> */}
         <BetButton></BetButton>
+        {/* <a href="/auth/google"> Sign in With Google</a> */}
 
         </Container>
         <Footer />
